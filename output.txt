@@ -1,0 +1,250 @@
+5. Test Sample List Score
+Sample score list
+[[0,0,com.lamductan.dblacr.lib.crypto.ticket.Ticket@20ad9418,[0=-1, 1=0]]
+, [0,1,com.lamductan.dblacr.lib.crypto.ticket.Ticket@31cefde0,[0=-2, 1=0]]
+, [0,2,com.lamductan.dblacr.lib.crypto.ticket.Ticket@439f5b3d,[0=-3, 1=0]]
+, [0,3,com.lamductan.dblacr.lib.crypto.ticket.Ticket@1d56ce6a,[0=1, 1=0]]
+, [0,4,com.lamductan.dblacr.lib.crypto.ticket.Ticket@5197848c,[0=2, 1=0]]
+, [0,5,com.lamductan.dblacr.lib.crypto.ticket.Ticket@17f052a3,[0=0, 1=3]]
+, [0,6,com.lamductan.dblacr.lib.crypto.ticket.Ticket@2e0fa5d3,[0=0, 1=-1]]
+]
+
+
+6. Test User0 Register after add list score
+nCategories = 2
+Score = -9
+Score satisfies threshold: false
+Score = 0
+Score satisfies threshold: true
+Check bit length
+Check by equations
+Verify ticket: true
+Proof MeritList
+
+score 0
+type1
+Type1 false: t_i == b_i^x
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+Verify CategoryType2
+Check bit length
+Check by equations
+Verify CategoryType3
+Type2 true
+
+
+score 1
+type1
+Type1 false: t_i == b_i^x
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+Verify CategoryType2
+Check bit length
+Check by equations
+Verify CategoryType3
+Type2 true
+
+
+score 2
+type1
+Type1 true: t_i != b_i^x
+Check bit length
+Check by equations
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+relation 1 wrong
+Verify CategoryType2
+Check bit length
+Check by equations
+relation 4 wrong
+Verify CategoryType3
+Type2 false
+
+
+score 3
+type1
+Type1 true: t_i != b_i^x
+Check bit length
+Check by equations
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+relation 1 wrong
+Verify CategoryType2
+Check bit length
+Check by equations
+relation 4 wrong
+Verify CategoryType3
+Type2 false
+
+Proof BlackList
+
+score 0
+type1
+Type1 false: t_i == b_i^x
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+Verify CategoryType2
+Check bit length
+Check by equations
+Verify CategoryType3
+Type2 true
+
+
+score 1
+type1
+Type1 false: t_i == b_i^x
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+Verify CategoryType2
+Check bit length
+Check by equations
+Verify CategoryType3
+Type2 true
+
+
+score 2
+type1
+Type1 false: t_i == b_i^x
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+Verify CategoryType2
+Check bit length
+Check by equations
+Verify CategoryType3
+Type2 true
+
+Check bit length
+Check by equations
+relation 3 wrong
+Final Proof False
+Proof MeritList
+
+score 0
+type1
+Type1 false: t_i == b_i^x
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+Verify CategoryType2
+Check bit length
+Check by equations
+Verify CategoryType3
+Type2 true
+
+
+score 1
+type1
+Type1 false: t_i == b_i^x
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+Verify CategoryType2
+Check bit length
+Check by equations
+Verify CategoryType3
+Type2 true
+
+
+score 2
+type1
+Type1 false: t_i == b_i^x
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+Verify CategoryType2
+Check bit length
+Check by equations
+Verify CategoryType3
+Type2 true
+
+
+score 3
+type1
+Type1 false: t_i == b_i^x
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+Verify CategoryType2
+Check bit length
+Check by equations
+Verify CategoryType3
+Type2 true
+
+
+score 4
+type1
+Type1 false: t_i == b_i^x
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+Verify CategoryType2
+Check bit length
+Check by equations
+Verify CategoryType3
+Type2 true
+
+
+score 5
+type1
+Type1 true: t_i != b_i^x
+Check bit length
+Check by equations
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+relation 1 wrong
+Verify CategoryType2
+Check bit length
+Check by equations
+relation 4 wrong
+Verify CategoryType3
+Type2 false
+
+Proof BlackList
+
+score 0
+type1
+Type1 true: t_i != b_i^x
+Check bit length
+Check by equations
+type2
+Verify CategoryType1
+Check bit length
+Check by equations
+relation 1 wrong
+Verify CategoryType2
+Check bit length
+Check by equations
+relation 4 wrong
+Verify CategoryType3
+Type2 false
+
+Check bit length
+Check by equations
+Final Proof True
+Verify fullfilment policy: [false, true]
+User 0 authenticates ServiceProvider 0, result: false
+
+
+
+Process finished with exit code 0

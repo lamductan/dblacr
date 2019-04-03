@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerifiableEncryptionOpening xmlns="http://www.zurich.ibm.com/security/idemix" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.zurich.ibm.com/security/idemix ../xsd/VerifiableEncryptionOpening.xsd">
+  <Locations>
+    <VEPublicKeyLocation>http://www.un.org/vepk.xml</VEPublicKeyLocation>
+  </Locations>
+  <Elements>
+    <Message>1314</Message>
+    <r>10686952785586278486844416300463927641107209508812005271910781787689450544489657640302585235736050173218722267064357125745977288677093527178820665751545426091496718297468425318874221425405799554534469395255209772829292698175280352029022096617678088194714083790276914040359675999540181546040019773311106410069</r>
+    <Label>1315</Label>
+  </Elements>
+</VerifiableEncryptionOpening>

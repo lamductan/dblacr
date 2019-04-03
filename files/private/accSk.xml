@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AccumulatorSecretKey xmlns="http://www.zurich.ibm.com/security/idemix" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.zurich.ibm.com/security/idemix ../xsd/AccumulatorSecretKey.xsd">
+  <publicKey>idemix://acc/pk</publicKey>
+  <order>67107106861675423092795474252467996559018282646440932059971699196001908319002167942871528089034788921011009731479571581856425812676003407703327936342680794964853112248911543235509966979067321370921761794493470227306507898954075250650754243307472088865392690182507935409325846069329337139666593347204611629922</order>
+</AccumulatorSecretKey>

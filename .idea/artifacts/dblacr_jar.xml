@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="dblacr:jar">
+    <output-path>$PROJECT_DIR$/bin</output-path>
+    <root id="archive" name="dblacr.jar">
+      <element id="module-output" name="dblacr" />
+    </root>
+  </artifact>
+</component>
